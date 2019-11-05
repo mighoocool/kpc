@@ -8,7 +8,8 @@ $theme-dir := __dirname()
 $fonts-dir := '.';
 
 // root font size
-$rem := 16
+$baseRem := 24
+$rem := 16 * $baseRem / 16
 
 // we must require other file after defined $theme-dir
 // otherwise, the __dirname may be weird
