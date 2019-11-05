@@ -1,15 +1,15 @@
 {
-  "name": "kpc",
+  "name": "mh-kpc",
   "version": "1.2.0",
   "description": "A component library written in Intact for Intact, Vue, React and Angular",
   "browser": "@css/index.js",
-  "main": "dist/kpc.js",
+  "main": "dist/mh-kpc.js",
   "module": "index.js",
   "scripts": {
     "test": "karma start test/karma.conf.js",
     "test:react": "cross-env REACT=1 karma start test/karma.react.conf.js",
     "test:theme": "mocha test/themes/index.js",
-    "test:angular": "cd ./packages/kpc-angular && npm run test -- --watch=false --browsers=ChromeHeadless",
+    "test:angular": "cd ./packages/mh-kpc-angular && npm run test -- --watch=false --browsers=ChromeHeadless",
     "snapshot": "npm run snapshot:common && npm run snapshot:react",
     "snapshot:common": "cross-env UPDATE=1 npm run test",
     "snapshot:react": "cross-env UPDATE=1 npm run test:react",

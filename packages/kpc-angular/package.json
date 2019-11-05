@@ -1,11 +1,11 @@
 {
-  "name": "kpc-angular",
+  "name": "mh-kpc-angular",
   "version": "1.2.0",
   "description": "KPC components for Angular",
   "main": "@css/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksc-fe/kpc.git"
+    "url": "git+https://github.com/mighoocool/kpc.git"
   },
   "keywords": [
     "component",
